@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #dadada;
+}
+.main{
+    height: 95%;
+    width: 95%;
+    background: linear-gradient(to bottom right, #4c4c4c, #9bc5c3);
+    transform: translate(2.5%, 2.5%);
+    box-shadow: 2px 2px 8px black;
+    /* position: relative; */
+    border-radius: 30px;
+}
+.main h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: "Comfortaa";
+    font-weight: 800;
+    color: #FFF;
+    text-shadow: 2px 2px 5px black;
+    text-decoration: underline wavy;
+    padding-top: 2vh;
+    margin-bottom: 3vh;
+}
+.tnotes{
+    /* background-color: lightgreen; */
+    height: 40vh;
+    width: 100%;
+    padding: 3vh 25vh;
+    display: flex;
+    flex-direction: column;
+}
+.tnotes h2{
+    font-family: "comfortaa";
+    font-size: 30px;
+    color: #000;
+    text-shadow: 1px 1px 4px #cecece;
+    font-weight: 800;
+}
+.tnotes input{
+    width: 80vh;
+    height: 5vh;
+    padding: 1vh;
+    border-radius: 5px;
+    border: none;
+    margin: 1vh 0;
+    font-size: 16px;
+}
+.tnotes textarea{
+    font-size: 16px;
+    width: 80vh;
+    height: 7vw;
+    border-radius: 5px;
+    padding: 1vh;
+}
+.tnotes button{
+    height: 6vh;
+    width: 11vh;
+    border: none;
+    border-radius: 10px;
+    margin: 1vh 0;
+    font-family: "Comfortaa";
+    font-size: 16px;
+    font-weight: 800;
+    cursor: pointer;
+    color: #000;
+    background: linear-gradient(to top right, #757F9A, #D7DDE8);
+}
+.snote{
+    height: 40vh;
+    max-width: 100%;
+    /* background-color: pink; */
+    /* padding: 3vh 56vh; */
+    /* display: flex;
+    flex-direction: column; */
+}
+.snote h2{
+    font-family: "comfortaa";
+    font-weight: 800;
+    padding: 1vh 2vh;
+    text-shadow: 1px 1px 4px #cecece;
+}
+.snote .show{
+    /* background-color: peachpuff; */
+    height: 20vh;
+}
+
+#notes{
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: start;
+    justify-content:start;
+    /* position: relative; */
+    /* flex-wrap: wrap; */
+    /* background-color: lemonchiffon; */
+    gap: 4;
+    /* border: 5px solid black; */
+    padding: 1% ;
+
+}
+
+.newdiv{
+    /* position: relative; */
+    padding: 1vh 2vh ;
+    max-width: 100%;
+    height: fit-content;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom right, #232526, #5d5d5e);
+    margin-left: 5px;
+    font-family: "comfortaa";
+}
+.newdiv h3{
+    text-decoration: underline;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+    color: #fff;
+    text-align: center;
+}
+.newdiv p{
+    padding-bottom: 1vh;
+    width: 25vh;
+    font-size: 14px;
+    color: #fff;
+}
+.newdiv button{
+    padding: 1vh;
+    border-radius: 10px;
+    border: none;
+    background: linear-gradient(to top right, #757F9A, #D7DDE8);
+    font-family: "comfortaa";
+    font-size: 14px;
+    font-weight: 800;
+}
+
+
+
+
